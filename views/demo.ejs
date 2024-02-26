@@ -1,0 +1,198 @@
+<%- include("partials/header"); -%>
+
+<section id="demo-section">
+  <div class="form-container">
+    <div class="demo-form">
+      <h2 class="demo-heading">Get Instant Demo</h2>
+      <p>
+        Live demo tailored to your business requirements with no high-pressure
+        sales pitch.
+      </p>
+
+      <input class="demo-input" type="email" placeholder="Business Email*" />
+
+      <!-- First Dropdown -->
+      <!-- <label class="dd-label" for="first-dropdown">Primary Financial System</label> -->
+
+      <select class="demo-input" id="first-dropdown">
+        <option value="selectOne">--Primary Financial System--</option>
+        <option value="deltek">Deltek</option>
+        <option value="epicor">Epicor</option>
+        <option value="infor">Infor</option>
+        <option value="jdedwards">JD Edwards</option>
+        <option value="microsoft">MicorSoft</option>
+        <option value="mrisoftware">MRI Software</option>
+        <option value="netsuite">Netsuite</option>
+        <option value="oracle">Oracle</option>
+        <option value="other">Other</option>
+        <option value="sage">Sage</option>
+        <option value="sap">SAP</option>
+        <option value="syspro">SYSPRO</option>
+        <option value="viewpoint">Viewpoint</option>
+      </select>
+
+      <!-- Second Dropdown -->
+      <!-- <label class="dd-label" for="second-dropdown">Financial System Version</label> -->
+      <select class="demo-input" id="second-dropdown">
+        <!-- Options will be added here based on the first dropdown selection -->
+        <option value="">--Financial System Version--</option>
+      </select>
+
+      <!-- <label class="dd-label" for="bi-tool">BI Tool</label> -->
+      <select class="demo-input" id="first-dropdown">
+        <option value="selectOne">--BI Tool--</option>
+        <option value="tableau">Tableau</option>
+        <option value="powerbi">Power BI</option>
+        <option value="qlik">Qlik</option>
+        <option value="jdedwards">JD Edwards</option>
+        <option value="looker">Looker</option>
+        <option value="domo">Domo</option>
+        <option value="aws-quicksight">AWS - QuickSight</option>
+        <option value="thoughtspot">ThoughtSpot</option>
+        <option value="custom-build">Custom Build</option>
+        <option value="other">Other</option>
+      </select>
+
+      <input class="checkbox" type="checkbox" id="agreement" />
+      <label class="cb-text" class="checkbox" for="agreement"
+        >I agree to receive digital communications from insightsoftware and its
+        partners (click here for full list of partners) containing news, product
+        information, promotions, or event invitations. I understand that I can
+        withdraw my consent at any time. Privacy Policy.</label
+      >
+      <button class="green-btn cta demo-btn">ACCESS DEMO NOW</button>
+      <div class="ratings">
+        <img
+          class="demo-rating"
+          src="images/capterra.webp"
+          alt="capterra-rating"
+        />
+        <img
+          class="demo-rating"
+          src="images/getapp.webp"
+          alt="get-app-rating"
+        />
+      </div>
+    </div>
+  </div>
+
+  <div class="demo-img">
+    <img src="images/demo-image.webp" alt="man on computer with graphs" />
+  </div>
+</section>
+
+<h2 class="demo-logo-headline">
+  See for yourself why over 500K+ users are using insightsoftware
+</h2>
+
+<div class="user-logos">
+  <img class="logo" src="images/otis.webp" alt="otis-logo" />
+  <img class="logo" src="images/carrier.webp" alt="carrier-logo" />
+  <img class="logo" src="images/edwards.webp" alt="edwards-logo" />
+  <img
+    class="logo starbucks"
+    src="images/starbucks.webp"
+    alt="starbucks-logo"
+  />
+  <img class="logo" src="images/rockwell.webp" alt="rockwell-logo" />
+  <img class="logo" src="images/sobeys.webp" alt="sobeys-logo" />
+</div>
+
+<section id="testimonials">
+  <h2 class="stories-heading">Customer Stories</h2>
+  <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <div class="quote-box">
+          <div class="personal-info">
+            <img
+              src="images/Julie_Muller.webp"
+              alt="Julie Muller"
+              class="pic"
+            />
+            <div class="info-text">
+              <h5 class="name">Julie Muller</h5>
+              <p class="title">Finance Manager</p>
+            </div>
+          </div>
+          <div class="quote">
+            <h4>40% Less Time</h4>
+            <p>
+              "I'd say we need 30 to 40 percent less time to get our work done,
+              all thanks to Jet. Fixed assets, for example, used to take half a
+              day; now jet does that automatically. That's amazing."
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="swiper-slide">
+        <div class="quote-box">
+          <div class="personal-info">
+            <img src="images/Nick_Stuart.webp" alt="Nick Stuart" class="pic" />
+            <div class="info-text">
+              <h5 class="name">Nick Stuart</h5>
+              <p class="title">Corporate Controller</p>
+            </div>
+          </div>
+          <div class="quote">
+            <h4>2 Days Saved Every Week</h4>
+            <p>
+              "The CFO and I can pull up the data and see where our cash is at
+              any time. It's really been a life saver, especially during these
+              uncertain times."
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="swiper-slide">
+        <div class="quote-box">
+          <div class="personal-info">
+            <img
+              src="images/Brian_Meyers.webp"
+              alt="Brian Meyers"
+              class="pic"
+            />
+            <div class="info-text">
+              <h5 class="name">Brian Meyers</h5>
+              <p class="title">Controller</p>
+            </div>
+          </div>
+          <div class="quote">
+            <h4>70% Less Time</h4>
+            <p>
+              "It's not just the huge amount of time that is saved; it's also
+              the sheer amount of information that's available at the click of a
+              button."
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="swiper-pagination"></div>
+  </div>
+</section>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script>
+  var swiper = new Swiper(".mySwiper", {
+    slidesPerView: 1,
+    spaceBetween: 30,
+    loop: true,
+    autoplay: {
+      delay: 2000,
+      disableOnInteraction: true,
+    },
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+  });
+</script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="js/app.js"></script>
+
+<%- include("partials/footer") %>
