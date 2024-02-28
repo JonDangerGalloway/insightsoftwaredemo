@@ -1,3 +1,11 @@
+// Pre-load Hover Images
+
+$.preloadImages = function() {
+  for (var i = 0; i < arguments.length; i++) {
+    $("<img />").attr("src", arguments[i]);
+  }
+}
+
 // Computer Image Change on hover
 
 $(".services").on("mouseover", function () {
