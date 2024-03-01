@@ -2,9 +2,11 @@
 
 $.preloadImages = function() {
   for (var i = 0; i < arguments.length; i++) {
-    $("<img />").attr("src", arguments[i]);
+    $("img").attr("src", arguments[i]);
   }
 }
+
+$.preloadImages("/images/accounting.webp","/images/automation.webp", "/images/budgeting.webp", "/images/close.webp", "/images/embedded.webp", "/images/financial.webp", "/images/operational.webp", "/images/tax.webp");
 
 // Computer Image Change on hover
 
